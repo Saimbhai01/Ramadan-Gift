@@ -1,0 +1,175 @@
+[indext.html](https://github.com/user-attachments/files/25128721/indext.html)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramadan Gift</title>
+
+<!-- Open Graph / Social Preview -->
+<meta property="og:title" content="Ramadan Special Gift ??">
+<meta property="og:description" content="?? ?????? ????? ???? ???? ????? ?????? ???? claim ????!">
+<meta property="og:image" content="https://example.com/ramadan-gift-preview.jpg">
+<meta property="og:url" content="https://example.com">
+<meta property="og:type" content="website">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Ramadan Special Gift ??">
+<meta name="twitter:description" content="?? ?????? ????? ???? ???? ????? ?????? ???? claim ????!">
+<meta name="twitter:image" content="https://example.com/ramadan-gift-preview.jpg">
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<!-- Working Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-k6RqeWeci5ZR/Lv4MR0sA0FfDOM7Yw6t9/H0TdrHPi6+p1TskFKwGkzjN7iH6Zzo/0VGRN6D1c+zIh1HEo2+qg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Poppins',sans-serif;}
+body{background:linear-gradient(180deg,#0b3d2e,#021a13);color:#fff;text-align:center;min-height:100vh;}
+a{text-decoration:none;color:inherit;}
+
+/* Loader */
+#loader{
+    position:fixed;inset:0;background:#021a13;display:flex;flex-direction:column;justify-content:center;align-items:center;z-index:9999;
+}
+.loader-circle{
+    width:60px;height:60px;border:5px solid #fff;border-top:5px solid gold;border-radius:50%;animation:spin 1s linear infinite;
+}
+@keyframes spin{to{transform:rotate(360deg)}}
+#loader p{margin-top:15px;font-size:16px;opacity:.9;}
+
+/* Logo */
+.logo{margin-top:25px;font-size:40px;animation:float 3s ease-in-out infinite;}
+@keyframes float{50%{transform:translateY(-12px)}}
+
+/* Moon */
+.moon{width:110px;height:110px;border-radius:50%;background:#f5e6a1;margin:20px auto;box-shadow:0 0 35px rgba(255,255,200,.6);animation:float 3s ease-in-out infinite;}
+
+/* Container */
+.container{padding:20px;max-width:600px;margin:auto;}
+
+/* Headings */
+h1{font-size:28px;margin-bottom:10px;}
+p{font-size:16px;opacity:.9;margin-bottom:10px;}
+
+/* Card */
+.card{
+    margin-top:18px;background:rgba(255,255,255,.08);border-radius:20px;padding:25px;backdrop-filter:blur(10px);box-shadow:0 10px 30px rgba(0,0,0,.3);animation:fadeIn 1.5s ease;
+}
+@keyframes fadeIn{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+
+/* Counter */
+.counter{font-size:18px;color:#ffd700;font-weight:500;margin-bottom:12px;}
+
+/* Dua */
+.dua{font-size:18px;margin:15px 0;opacity:0;animation:duaFade 3s ease forwards;animation-delay:1s;}
+@keyframes duaFade{to{opacity:1}}
+
+/* Button */
+button{
+    width:100%;margin-top:20px;padding:16px;font-size:18px;font-weight:600;border:none;border-radius:50px;background:linear-gradient(90deg,#ffd700,#ffae00);color:#000;cursor:pointer;box-shadow:0 5px 15px rgba(255,215,0,.5);animation:pulse 2s infinite;
+}
+@keyframes pulse{50%{transform:scale(1.05)}}
+button:hover{transform:scale(1.08);}
+
+/* Share Buttons */
+.share-buttons{margin-top:20px;text-align:center;}
+.share-buttons p{font-size:14px;margin-bottom:6px;opacity:.8;}
+.share-buttons .buttons a{
+    display:inline-block;margin:0 6px;font-size:22px;width:40px;height:40px;line-height:40px;text-align:center;border-radius:50%;background:rgba(255,255,255,0.15);color:#fff;transition:0.3s;
+}
+.share-buttons .buttons a:hover{background:gold;color:#000;}
+
+/* Footer */
+.footer{margin:25px 0 15px;font-size:14px;opacity:.7;}
+
+/* Responsive Adjustments */
+@media(max-width:480px){
+    h1{font-size:24px;}
+    p{font-size:14px;}
+    .counter,.dua{font-size:15px;}
+    button{font-size:16px;padding:14px;}
+    .logo{font-size:36px;}
+    .moon{width:90px;height:90px;}
+}
+@media(min-width:1025px){
+    body{font-size:16px;}
+    .container{padding:30px;}
+    h1{font-size:32px;}
+    p{font-size:18px;}
+    .counter,.dua{font-size:20px;}
+    button{font-size:20px;padding:18px 0;}
+    .moon{width:130px;height:130px;}
+    .logo{font-size:50px;}
+}
+</style>
+</head>
+
+<body>
+
+<!-- Loader -->
+<div id="loader">
+    <div class="loader-circle"></div>
+    <p>Verifying your Ramadan Gift�</p>
+</div>
+
+<div class="logo">????</div>
+<div class="moon"></div>
+
+<div class="container">
+    <h1>Ramadan Special Gift</h1>
+    <p>?? ?????? ?????? ????? ???? ????? ?????</p>
+
+    <div class="card">
+        <div class="counter">?? <span id="count">10427</span>+ People Claimed</div>
+        <div class="dua">?? ????????? ??????? ????? ??? ?????????</div>
+        <p>??????? ????? ????? ????? ???? claim ?????</p>
+        <button onclick="claimGift()">Claim Gift</button>
+
+        <!-- Social Share Buttons -->
+        <div class="share-buttons">
+            <p>Share this Gift:</p>
+            <div class="buttons">
+                <a href="#" id="facebook" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" id="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="#" id="telegram" target="_blank"><i class="fab fa-telegram-plane"></i></a>
+                <a href="#" id="twitter" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" id="linkedin" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#" id="messenger" target="_blank"><i class="fab fa-facebook-messenger"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">� 2026 � Trusted Ramadan Rewards</div>
+</div>
+
+<script>
+/* Loader */
+setTimeout(()=>{document.getElementById("loader").style.display="none";},1800);
+
+/* Fake Counter */
+let count=10427;
+setInterval(()=>{
+    count+=Math.floor(Math.random()*3)+1;
+    document.getElementById("count").innerText=count;
+},2500);
+
+/* Claim Gift Button */
+function claimGift(){window.location.href="PASTE_YOUR_LINK_HERE";}
+
+/* Social Share Links */
+const pageUrl = encodeURIComponent("https://example.com"); // change to your landing page URL
+const pageTitle = encodeURIComponent("Ramadan Special Gift ??");
+
+document.getElementById("facebook").href = `https://www.facebook.com/sharer/sharer.php?u=${pageUrl}`;
+document.getElementById("whatsapp").href = `https://api.whatsapp.com/send?text=${pageTitle}%20${pageUrl}`;
+document.getElementById("telegram").href = `https://t.me/share/url?url=${pageUrl}&text=${pageTitle}`;
+document.getElementById("twitter").href = `https://twitter.com/intent/tweet?url=${pageUrl}&text=${pageTitle}`;
+document.getElementById("linkedin").href = `https://www.linkedin.com/shareArticle?mini=true&url=${pageUrl}&title=${pageTitle}`;
+document.getElementById("messenger").href = `fb-messenger://share/?link=${pageUrl}`;
+</script>
+
+</body>
+</html>
